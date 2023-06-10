@@ -56,6 +56,7 @@ struct adaline
  * \param[in] eta learning rate (optional, default=0.1)
  * \returns new adaline model
  */
+
 struct adaline new_adaline(const int num_features, const double eta)
 {
     if (eta <= 0.f || eta >= 1.f)
